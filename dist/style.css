@@ -534,18 +534,67 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+.inline {
+  display: inline;
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+.flex {
+  display: flex;
 }
 
-.text-yellow-500 {
-  --tw-text-opacity: 1;
-  color: rgb(234 179 8 / var(--tw-text-opacity));
+.h-16 {
+  height: 4rem;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-6\/12 {
+  width: 50%;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.bg-\[url\(\'https\:\/\/assets\.nflxext\.com\/ffe\/siteui\/vlv3\/855ed6e2-d9f1-4afd-90da-96023ec747c3\/85eb5b91-25ed-4965-ace9-ba8e4a0ead8d\/IN-en-20230828-popsignuptwoweeks-perspective_alpha_website_large\.jpg\'\)\] {
+  background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/855ed6e2-d9f1-4afd-90da-96023ec747c3/85eb5b91-25ed-4965-ace9-ba8e4a0ead8d/IN-en-20230828-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\/\'\)\] {
+  background-image: url('/');
+}
+
+.bg-\[url\(\'\/src\.\'\)\] {
+  background-image: url('/src.');
+}
+
+.bg-\[url\(\'\/netflix\.\'\)\] {
+  background-image: url('/netflix.');
+}
+
+.bg-\[url\(\'\/netflix\.jp\'\)\] {
+  background-image: url('/netflix.jp');
+}
+
+.bg-\[url\(\'\/netflix\.jpg\'\)\] {
+  background-image: url('/netflix.jpg');
+}
+
+.bg-\[url\(\'\/\.\'\)\] {
+  background-image: url('/.');
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
 }
     
